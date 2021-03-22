@@ -10,8 +10,7 @@ namespace :greeting do
     puts "hola de Rake!"
   end 
   
-task :console 
-end
+ 
 
 end 
 
