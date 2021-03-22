@@ -10,4 +10,8 @@ namespace :greeting do
     puts "hola de Rake!"
   end 
   
+  task :console => :environment do 
+    Pry.start
+  end 
+  
 end 
